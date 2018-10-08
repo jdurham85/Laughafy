@@ -1,0 +1,113 @@
+/* FRIENDS STYLESHEET */
+
+#friend_request_pl {
+    cursor: pointer;
+}
+
+#friend_sugesstion_pl {
+    cursor: pointer;
+}
+
+#friend_contact_pl {
+    cursor: pointer;
+}
+
+#friend_pl {
+    cursor: pointer;
+}
+
+/*FRIENDS STYLE*/
+#friendmain_tb {
+    width: 100%;
+    float: left;
+}
+
+#friendmain_tb td {
+    width: 20%;
+    border: 1px black solid;
+    text-align: center;
+    height: 60px;
+    font-size: 12px;
+}
+
+/*FRIENDS SYTLE END*/
+
+#friend_suggestion_tb {
+    width: 100%;
+    float: left;
+    margin: 2% auto;
+}
+
+#friend_request_tb {
+    width: 100%;
+    display: none;
+    float: left;
+    margin: 2% auto;
+}
+
+#friend_contact_tb {
+    width: 100%;
+    display: none;
+    float: left;
+    margin: 2% auto;
+}
+
+#friend_tb {
+    width: 100%;
+    display: none;
+    float: left;
+    margin: 2% auto;
+}
+
+.member_suggestion_tb {
+    width: 100%;
+    float: left;
+    margin: 2% auto;
+}
+
+.member_friend_tb {
+    width: 100%;
+    float: left;
+    margin: 2% auto;
+    border-bottom: 1px black solid;
+}
+
+.friends_request_count {
+    width: 25px;
+    height: 25px;
+    float: none;
+}
+
+/*FRIEND LIST BOX*/
+#friend_list_box {
+    display: none;
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1.125em;
+    background-color: white;
+}
+
+#friend_list_box table {
+    float: left;
+    width: 100%;
+}
+
+#friend_list_box table tr td {
+    border: 1px black solid;
+    padding:1em;
+}
+
+#friend_list_close_box_btn{
+    padding: 1em;
+    text-align: center;
+    color: black;
+    background-color: red;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+

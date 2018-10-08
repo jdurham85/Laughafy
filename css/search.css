@@ -1,0 +1,33 @@
+#searchbox_header{
+	width: 100%;
+	float: left;
+	border-bottom: 1px black solid;
+}
+
+#search_input_txt{
+	padding: 1em;
+	border: 1px black solid;
+	width: 100%;
+}
+
+#searchbox_body{
+	float: left;
+	width: 100%;
+	overflow-y: auto;
+}
+
+#searchbox_advance_search_btn{
+	text-align: center;
+	width:50%;
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 1em;
+}
+
+#searchbox_advance_search_tb{
+	width: 100%;
+	float: left;
+}

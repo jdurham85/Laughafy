@@ -1,0 +1,445 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+}
+
+#header {
+    width: 100%;
+    background-color: black;
+    float: left;
+    background-image: url("../image/laughfy_headerbar.png");
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+#friend_header_request_pl {
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    position: fixed;
+    float: left;
+    margin-left: 20px;
+    margin-top: -32px;
+}
+
+#message_alert {
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    position: fixed;
+    float: left;
+    margin-left: 20px;
+    margin-top: -32px;
+}
+
+.alert1 {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 1px;
+    width: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#notification_count_unseen_alert {
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    position: fixed;
+    float: left;
+    margin-left: -35px;
+    margin-top: 0px;
+}
+
+#menu_btn_panel {
+    float: left;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+#menu_btn_panel td {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+
+#menu_btn_panel img {
+    width: auto;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+#menu_btn {
+    background-color: black;
+    font-family: Helvetica, Arial;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px;
+    width: auto;
+    line-height: 40px;
+    margin-top: 0px;
+    float: left;
+    font-weight: bolder;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#sidemenu {
+    width: 100%;
+    display: none;
+    float: left;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+
+#sidemenu div {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    padding: 20px;
+}
+
+#sidemenu img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*MEMBER PHOTO VIEWER*/
+#member_photo_viewer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    float: left;
+    display: none;
+    padding: 1.10em;
+}
+
+#member_photo_viewer_close_btn {
+    text-align: center;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 70%;
+    float: left;
+}
+
+#member_photo_viewer_option_btn {
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+#member_photo_viewer_title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    padding: 1em;
+    float: left;
+    border-bottom: 1px black solid;
+}
+
+#member_photo_viewer_img {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    max-height: 540px;
+}
+
+#member_photo_viewer_description {
+    padding: 1.125em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-size: 14px;
+}
+
+/*MEMBER PHOTO VIEWER END*/
+
+/*MEMBER PHOTO OPTION MENU*/
+#member_photo_option_menu {
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    display: none;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto;
+    padding: 1.10em;
+}
+
+#member_photo_option_menu div {
+    color: black;
+    padding: 1em;
+    width: 100%;
+    float: left;
+    border-bottom: 1px black solid;
+    background-color: white;
+}
+
+/*MEMBER PHOTO OPTION MENU END*/
+
+/*PROFILE STYLE*/
+.profiletb {
+    width: 100%;
+    float: left;
+}
+
+#profile_info_tb {
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+
+#profile_info_tb td {
+    width: 25%;
+    text-align: center;
+}
+
+/*PROFILE STYLE END*/
+
+/*POST POPUP BOX*/
+#post_popup_box {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: none;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto;
+    padding: 1em;
+    z-index: 2;
+}
+
+#post_popup_box_close_btn {
+    text-align: center;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+
+/*POST POPUP BOX END*/
+
+/*PROFILE BOX*/
+#profile_box {
+    width: 100%;
+    margin-top: 30%;
+    float: left;
+    background-color: white;
+}
+
+#profile_box_close_btn {
+    padding: 1em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+}
+
+#profile_box_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#profile_box_membername {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile_box_btn {
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*PROFILE BOX END*/
+
+/*ACCOUNT SETTING*/
+#account_setting_title{
+    float: left;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#account_setting_header_btn{
+    float: left;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#account_settingbox{
+    padding:1.125em;
+    float: left;
+    width: 100%;
+}
+
+#account_setting_tb{
+    width: 100%;
+    float: left;
+}
+
+#account_setting_tb td{
+    padding:0.4em;
+}
+
+.account_setting_row1{
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+}
+
+.account_setting_row2{
+    text-align: left;
+    width: 80%;
+}
+
+.account_setting_btn{
+    width: 33.3%;
+    padding:0.5em;
+    text-align: center;
+}
+
+.account_setting_title1{
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.account_setting_info{
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+/*BLOCK MEMBER*/
+.account_setting_block_tb{
+    width: 100%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+#account_setting_bl_user_tb{
+    width: 100%;
+    float: left;
+}
+
+#block_member_name{
+    padding: 1em;
+    border:1px black solid;
+    width: 72%;
+    float: left;
+}
+
+#account_setting_block_member_btn{
+    float: left;
+    width: 100%;
+    border:1px black solid;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 2px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+#account_setting_blm_user_tb{
+    width: 100%;
+    float: left;
+}
+
+#block_member_message_name{
+    padding: 1em;
+    border:1px black solid;
+    width: 72%;
+    float: left;
+}
+
+#account_setting_block_message_btn{
+    float: left;
+    width: 25%;
+    border:1px black solid;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 2px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+#account_setting_block_list{
+    width: 100%;
+    float: left;
+    padding: 1.125em;
+}
+
+/*ACCOUNT SETTING EDIT*/
+#account_setting_input_edit{
+    width: 100%;
+    border:1px black solid;
+    border-radius: 1em;
+    padding: 5px;
+}
+
+.account_setting_edit_btn{
+    display: none;
+}
+/*ACCOUNT SETTING EDIT END*/
+
+/*ACCOUNT SETTING END*/

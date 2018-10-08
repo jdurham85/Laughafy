@@ -1,0 +1,99 @@
+#admin-header{
+    line-height: 60px;
+    background-color: #e7e8ec;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#admin-menu-btn{
+    border-radius: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 5em;
+    line-height: 58px;
+}
+
+#admin-title{
+    font-size: 1em;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#admin_menu{
+    width: 20%;
+    float: left;
+    display: none;
+    border:1px black solid;
+    position: fixed;
+    top: 60px;
+    background-color: #e9eaee;
+}
+
+.admin-menu-btn{
+    line-height: 60px;
+    border-bottom: 1px black solid;
+    font-weight: bold;
+    padding-left: 4em;
+}
+
+.admin-menu-btn:hover{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#admin-body{
+    width: 100%;
+    float: left;
+}
+
+/*DASHBOARD*/
+#admin_dashboard_body{
+    margin: auto;
+    width: 80%;
+}
+
+#admin_new_user_pl{
+    padding:1em;
+    border-radius: 1em;
+    border: 4px black solid;
+    width: 20%;
+    text-align: center;
+    margin: 1em;
+    float: left;
+}
+
+#admin_feedback-rating_pl{
+    padding:1em;
+    border-radius: 1em;
+    border: 4px black solid;
+    width: 20%;
+    text-align: center;
+    margin: 1em;
+    float: left;
+}
+
+#admin_container-chart{
+    margin: auto;
+    width: 80%;
+    padding: 5em;
+}
+
+#chartContainer{
+    width: 100%;
+    float: left;
+    border: 1px black solid;
+}
+
+.canvasjs-chart-credit{
+    display: none;
+}

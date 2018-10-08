@@ -1,0 +1,130 @@
+#event_menu {
+    width: 100%;
+}
+
+#event_add_tb {
+    display: none;
+}
+
+body {
+    background-color: rgba(59, 78, 87, 0.2);
+}
+
+#event_add_btn {
+    background-color: #416cd2;
+    text-align: center;
+    padding: .8em;
+    color: white;
+    width: 100%;
+    float: left;
+}
+
+.event_user_directions {
+    padding: .5em;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.event_menu_btn {
+    border-bottom: 1px black solid;
+    float: left;
+    line-height: 3em;
+    width: 33.3%;
+    text-align: center;
+    background-color: white;
+}
+
+.event_close_btn {
+    border-bottom: 1px black solid;
+    float: left;
+    line-height: 5em;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #d2081a;
+}
+
+.event_title {
+    border-bottom: 1px black solid;
+    float: left;
+    line-height: 5em;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Create Event Table */
+#event_add_tb {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#event_add_tb select {
+    width: 100%;
+    float: left;
+    padding: 1.2em;
+    border: 1px black solid;
+    margin-bottom: 2px;
+}
+
+#event_frm_add_btn {
+    padding: 1em;
+    border: 1px black solid;
+}
+
+#event_add_tb input {
+    width: 100%;
+    float: left;
+    padding: 1em;
+    border: 1px black solid;
+    margin-bottom: 2px;
+}
+
+#event_add_tb textarea {
+    width: 100%;
+    float: left;
+    padding: .6em;
+    height: 200px;
+    border: 1px black solid;
+}
+
+.event_item {
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+    float: left;
+    padding: 2em;
+}
+
+.event_box {
+    background-color: white;
+    width: 100%;
+    float: left;
+    border: 10px rgba(59, 78, 87, 0.2) solid;
+    margin-bottom: 40px;
+}
+
+/* BirthDAY */
+#birthday_box{
+    padding: 2em;
+    border: 1px black solid;
+    width: 100%;
+    float: left;
+}
+
+.birthday-title{
+    width: 100%;
+    float: left;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.birthday_ico{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-top: -15px;
+}

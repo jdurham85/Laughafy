@@ -1,0 +1,203 @@
+.speech-bubble {
+    position: relative;
+    background: #93bba4;
+    border-radius: .4em;
+    z-index: -1;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #93bba4;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+
+.speech-bubble2{
+    position: relative;
+    background-color: #ced0d4;
+    border-radius: .4em;
+    z-index: -1;
+}
+
+.speech-bubble2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #93bba4;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+#messagebox {
+    width: 100%;
+    position: fixed;
+    float: left;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+
+#messagebox_intro_close_btn {
+    padding: 0.5em;
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+#messagebox_header{
+    position: relative;
+    left:0;
+}
+
+.messagebox_inboxbar {
+    float: left;
+    width: 100%;
+    border-bottom: 1px black solid;
+    padding:1.125em;
+}
+
+.messagebox_inbox_img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.messagebox_inbox_membername {
+    float: left;
+    width: 80%;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.messagebox_inbox_message {
+    float: left;
+    width: 80%;
+    font-size: 13px;
+    padding-top: 1px;
+    padding-left: 5px;
+}
+
+#messagebox_body {
+    width: 100%;
+    float: left;
+}
+
+.messagestyle1 {
+    border-radius: 60px;
+    float: right;
+    width: 60%;
+    padding: 0.8em;
+}
+
+.messagestyle1a {
+    border-radius: 60px;
+    float: left;
+    width: 60%;
+    padding: 0.9em;
+}
+
+#message_inputbox {
+    padding: 1em;
+    width:80%;
+    float: left;
+    background-color: white;
+    border: 1px black solid;
+}
+
+#message_sendmessage_btn {
+    float: left;
+    padding: 1em;
+    color: white;
+    background-color: black;
+}
+
+#messagebox_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px black solid;
+    padding: 0.5em;
+    width: 100%;
+    z-index: 2;
+}
+
+#messagebox_footer table {
+    float: left;
+    width: 33.3%;
+}
+
+#messagebox_footer img {
+    width: auto;
+    height: 30px;
+}
+
+/*MESSAGE BOX MEMBER*/
+.messagebox_member {
+    display: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0.5em;
+    overflow-y: auto;
+}
+
+.messagebox_select_img{
+    text-align: center;
+    margin: 4% auto;
+    float:left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.messagebox_select_membername{
+    width: 80%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.messagebox_select_message{
+    width: 76%;
+    padding:1em;
+    text-align: center;
+    float: left;
+}
+
+#message_select_footer {
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+}
+
+#message_select_close_btn{
+    position: fixed;
+    right:0;
+    top:0;
+    background-color: red;
+    color: white;
+    padding:1.5em;
+    font-weight: bold;
+}
+/*MESSAGE BOX MEMBER END*/
